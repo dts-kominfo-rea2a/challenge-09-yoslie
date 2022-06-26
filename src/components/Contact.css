@@ -1,0 +1,35 @@
+.contact-list {
+  margin-bottom: 20px;
+  padding: 20px;
+  width: 300px;
+  height: 120px;
+  border-radius: 5px;
+  background: #FFF;
+  display: flex;
+  flex-direction: row;
+  color: #179668;
+}
+
+.contact-image {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.contact-img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.contact-detail {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 20px;
+}
+
+.contact-name {
+  font-weight: bold;
+}
